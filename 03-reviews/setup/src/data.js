@@ -1,7 +1,7 @@
 const reviews = [
   {
     id: 1,
-    name: 'susan smith',
+    name: 'Yoshino Yayama',
     job: 'web developer',
     image:
       'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
@@ -10,7 +10,7 @@ const reviews = [
   },
   {
     id: 2,
-    name: 'anna johnson',
+    name: 'Munesada Oumi',
     job: 'web designer',
     image:
       'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg',
@@ -19,7 +19,7 @@ const reviews = [
   },
   {
     id: 3,
-    name: 'peter jones',
+    name: 'Shu Watari',
     job: 'intern',
     image:
       'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
@@ -28,13 +28,22 @@ const reviews = [
   },
   {
     id: 4,
-    name: 'bill anderson',
+    name: 'Kyo Watari',
     job: 'the boss',
     image:
       'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
     text:
       'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
   },
+  {
+    id: 5,
+    name: 'Tsukasa Matsunaga',
+    job: 'the boss',
+    image:
+      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
+    text:
+      'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
+  }
 ];
 
 export default reviews;
