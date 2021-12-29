@@ -73,10 +73,10 @@ const menu = [
   },
   {
     id: 10,
-    title: 'Sushi',
+    title: 'Hamburg steak',
     category: 'dinner',
     price: 99.99,
-    img: './images/item-6.jpeg',
+    img: './images/item-10.jpeg',
     desc: `sushi ga totemo kuitai.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`,
   },
 ];
