@@ -18,7 +18,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name) {
-      showAlert(true, "danger", "please enter value");
+      showAlert(true, "danger", "Please enter value!");
     } else if (name && isEditing) {
       setList(
         list.map((item) => {
@@ -31,9 +31,9 @@ function App() {
       setName("");
       setEditID(null);
       setIsEditing(false);
-      showAlert(true, "success", "value changed");
+      showAlert(true, "Success", "value changed.");
     } else {
-      showAlert(true, "success", "item added to the list");
+      showAlert(true, "Success", "Item added to the list.");
       const newItem = { id: new Date().getTime().toString(), title: name };
 
       setList([...list, newItem]);
@@ -45,11 +45,11 @@ function App() {
     setAlert({ show, type, msg });
   };
   const clearList = () => {
-    showAlert(true, "danger", "empty list");
+    showAlert(true, "danger", "Empty list");
     setList([]);
   };
   const removeItem = (id) => {
-    showAlert(true, "danger", "item removed");
+    showAlert(true, "danger", "Item removed.");
     setList(list.filter((item) => item.id !== id));
   };
   const editItem = (id) => {
