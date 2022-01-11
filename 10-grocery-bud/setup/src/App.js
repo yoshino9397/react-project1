@@ -5,6 +5,7 @@ const getLocalStorage = () => {
   let list = localStorage.getItem("list");
   if (list) {
     return (list = JSON.parse(localStorage.getItem("list")));
+    ///JSON.parse()は受け取った文字列をJSONに変換し、JavaScriptの値やオブジェクトを構築することができる
   } else {
     return [];
   }
@@ -60,6 +61,8 @@ function App() {
   };
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(list));
+    ///JSON.stringifyは与えられたJavaScriptの値をJSON文字列に変換するメソッド
+    ///リロードしても値を保持できる
   }, [list]);
   return (
     <section className="section-center">
