@@ -15,6 +15,7 @@ const AppProvider = ({ children }) => {
   };
   const openSubmenu = (text, coordinates) => {
     const page = sublinks.find((link) => link.page === text);
+    ///オブジェクト配列から条件に合うものを見つけるfind()
     setPage(page);
     setLocation(coordinates);
     setIsSubmenuOpen(true);
