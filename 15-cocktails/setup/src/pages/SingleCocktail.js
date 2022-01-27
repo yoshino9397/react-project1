@@ -1,4 +1,3 @@
-import React from "react";
 import Loading from "../components/Loading";
 import { useParams, Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
@@ -46,11 +45,11 @@ export default function SingleCocktail() {
             glass,
             instructions,
           };
-          setNewCocktail(newCocktail);
+          setCocktail(newCocktail);
         } else {
           setCocktail(null);
         }
-      } catch (err) {
+      } catch (error) {
         console.log(error);
       }
       setLoading(false);
