@@ -25,13 +25,14 @@ function App() {
     document.documentElement.className = theme;
     localStorage.setItem("theme", theme);
   }, [theme]);
+
   return (
     <main>
       <nav>
         <div className="nav-center">
           <h1>overreacted</h1>
           <button className="btn" onClick={toggleTheme}>
-            toggle
+            Dark
           </button>
         </div>
       </nav>
