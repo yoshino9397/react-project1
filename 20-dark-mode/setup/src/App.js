@@ -12,6 +12,7 @@ const getStorageTheme = () => {
 
 function App() {
   const [theme, setTheme] = useState(getStorageTheme());
+
   const toggleTheme = () => {
     if (theme === "light-theme") {
       setTheme("dark-theme");
@@ -30,7 +31,7 @@ function App() {
         <div className="nav-center">
           <h1>overreacted</h1>
           <button className="btn" onClick={toggleTheme}>
-            Change Color
+            toggle
           </button>
         </div>
       </nav>
